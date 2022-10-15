@@ -1,0 +1,13 @@
+1) 'trainable parameters' are those which value is modified according to their gradient (the derivative of the error/loss/cost relative to the parameter), whereas 'non-trainable parameters' are those which value is not optimized according to their gradient.
+
+2) We can apply a Dropout layer to the input vector, in which case it nullifies some of its features; but we can also apply it to a hidden layer, in which case it nullifies some hidden neurons. Dropout layers are important in training CNNs because they prevent overfitting on the training data.
+
+3)If data is less complex and is having fewer dimensions or features then neural networks with 1 to 2 hidden layers would work. If data is having large dimensions or features then to get an optimum solution, 3 to 5 hidden layers can be used.
+
+5)The range of values to consider for the learning rate is less than 1.0 and greater than 10^-6. A traditional default value for the learning rate is 0.1 or 0.01, and this may represent a good starting point on your problem.
+
+6)An Activation Function decides whether a neuron should be activated or not. This means that it will decide whether the neuron's input to the network is important or not in the process of prediction using simpler mathematical operations.
+
+7)The main objective of database normalization is to eliminate redundant data, minimize data modification errors, and simplify the query process. Ultimately, normalization goes beyond simply standardizing data, and can even improve workflow, increase security, and lessen costs.
+
+8)Image augmentation artificially creates training images through different ways of processing or combination of multiple processing, such as random rotation, shifts, shear and flips, etc.
